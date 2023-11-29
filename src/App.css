@@ -23,6 +23,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.disconnected {
+  filter: blur(2px);
+  cursor: not-allowed;
+}
 
 .App-link {
   color: #61dafb;
@@ -35,4 +39,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.chat-messages {
+  height: 400px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.message {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.message-input {
+  display: flex;
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.chat-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+.name-input {
+  margin-bottom: 20px;
+}
+.status {
+  color: red;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.send-button:hover {
+  background: #0056b3;
 }
