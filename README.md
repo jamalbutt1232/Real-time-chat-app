@@ -19,4 +19,4 @@ Test and use the app as you like.
 Stop the App:
 To stop, press Ctrl + C in the terminal.
 
-<!-- These instructions assume that you have Node.js and npm already installed on your computer. If not, you should install Node.js first, as it includes npm. I am currently using node 16.15.0 version -->
+<!-- These instructions assume that you have Node.js and npm already installed on your computer. If not, you should install Node.js first, as it includes npm. I am currently using node 16.15.0 version. -->
